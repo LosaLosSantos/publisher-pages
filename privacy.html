@@ -13,30 +13,42 @@
   <p class="muted">Last updated: 19 October 2026</p>
 
   <h2>Data</h2>
-  <p>Only data about TikTok accounts connected by the tool's owner through TikTok's login:</p>
+  <p>Only data about the YouTube, Instagram and TikTok accounts its owner connects:</p>
   <ul>
-    <li>the access and refresh tokens issued by TikTok;</li>
-    <li>the account's TikTok identifier, display name and granted permissions;</li>
-    <li>the creator information TikTok returns before a post;</li>
-    <li>the videos the owner selects, and the identifiers and status of the resulting posts.</li>
+    <li>the access and refresh tokens issued by Google, Meta and TikTok;</li>
+    <li>each account's identifier, name and granted permissions;</li>
+    <li>what the platforms return before a post (for TikTok, the creator information; for
+      Instagram, the publishing limit);</li>
+    <li>the videos the owner selects, and the identifiers, links and status of the resulting
+      posts.</li>
   </ul>
-  <p>The tool never receives a password: the login happens on TikTok's own pages.</p>
+  <p>The tool never receives a password: logins happen on the platforms' own pages, and the
+    Instagram token is generated in Meta's own dashboard.</p>
 
   <h2>Use</h2>
-  <p>Only to send content the owner has confirmed to the owner's TikTok account and to show its
-    status.</p>
+  <p>Only to publish the videos the owner chooses on the owner's own accounts, and to show their
+    status. Each video and its text go only to the platform the owner picks. For Instagram, Meta
+    downloads the video from a temporary signed link that expires after six hours; that link may
+    be served through a tunnel or hosting provider.</p>
 
   <h2>Storage</h2>
-  <p>On the owner's computer only, with tokens encrypted. Nothing is shared or sold, and there is
-    no advertising or analytics.</p>
+  <p>On a computer the owner controls. Tokens are encrypted; videos and post records stay there
+    until the owner deletes them. Data obtained from YouTube (the channel name, the status of
+    uploaded videos) is refreshed at least every 30 days while the tool runs, and as soon as it
+    starts again after a pause. Nothing is sold, and there is no advertising or analytics.</p>
 
   <h2>Removal</h2>
-  <p>Disconnecting the account in the tool revokes the access at TikTok and deletes the tokens.
-    The access can also be removed at any time from TikTok's app settings.</p>
+  <p>Disconnecting an account in the tool revokes the access where the platform allows it and
+    deletes the tokens. Access can also be removed at any time from the platforms: for Google,
+    from the <a href="https://myaccount.google.com/permissions">Google security settings</a>; for
+    Instagram and TikTok, from their apps' settings.</p>
 
-  <h2>TikTok</h2>
-  <p>What is sent to TikTok is handled under
-    <a href="https://www.tiktok.com/legal/page/eea/privacy-policy/en">TikTok's Privacy Policy</a>.</p>
+  <h2>Platforms</h2>
+  <p>This tool uses YouTube API Services. What is sent to each platform is handled under its own
+    policy: the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, the
+    <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a> and
+    <a href="https://www.tiktok.com/legal/page/eea/privacy-policy/en">TikTok's Privacy
+    Policy</a>.</p>
 
   <h2>Contact</h2>
   <p><a href="https://github.com/LosaLosSantos/publisher-pages/issues">Open an issue</a>.</p>
